@@ -20,3 +20,32 @@
     color: white;
     text-transform: capitalize;
   }
+  .card-header{
+    background-color: #01949c;
+  }
+  .card-color{
+    background-color: black; 
+    color: #fff;
+  }
+  .container-iconos{
+    background-color: black;
+    padding: 60px 50px;
+  }
+  .section-form {
+    margin: 20px auto;
+    border: 2px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    width: auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px gainsboro;
+  }
+  
+  
+  
+  @media (max-width: 767px) {
+    .section-form {
+        margin: 10px;
+        width: auto;
+    }
+  }
