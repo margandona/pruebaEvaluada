@@ -1,24 +1,25 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Cabin", sans-serif;
+    margin: 0; /*reniniciamos margen*/
+    padding: 0;/*reiniciamos relleno*/
+    border: 0;/*reiniciamos bordes*/
+    font-family: "Cabin", sans-serif; /*se establece el tipo de letra google fonts*/
     
   }
   main{
-    background-color: #111;
+    background-color: #111; /*se establece color de fonde de main*/
   }
   
   .navbar {
-    background-color: #01949c;
-    padding: 20px;
+    background-color: #01949c; /*se establece color de fonde de la barra de navegación*/
+    padding: 20px; /*se establece el relleno de la balla de navegación*/
   }
   
   .navbar-brand,
   .navbar-expand-md button {
-    padding: 0 60px;
+    padding: 0 60px; /*relleno boton de barra de navegación*/
   }
   .titulo2{
-    padding-bottom: 20px;
+    padding-bottom: 20px; /*relleno titulos*/
   }
   .card-img-top-fixed {
     width: 100%; /* Esto hace que la imagen siempre ocupe el 100% del ancho de la tarjeta */
@@ -26,52 +27,51 @@
     object-fit: cover; /* Esto recortará la imagen para que se ajuste al contenedor sin distorsionarse */
 }
   .lobster-regular {
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    text-transform: capitalize;
+    font-family: "Lobster", sans-serif; /*se establece fuente*/
+    font-weight: 400;/*se establece tamaño de fuente*/
+    font-style: normal; /*se establece estilo de fuente*/
+    color: white; /*se establece color de fuente*/
+    text-transform: capitalize; /*se establece que solo la primera letra es mayuscula*/ 
   }
   .card-header{
-    background-color: #01949c;
+    background-color: #01949c; /*se establece el fondo del banner del icono*/
   }
   .card-color{
-    background-color: black; 
-    color: #fff;
+    background-color: black; /*se establece el fondo de la tarjeta de la seccion de icono*/
+    color: #fff; /*se establece el color de la letra de la sección de iconos*/
   }
-  .card-title{
-    
+  
+  
+  .container-iconos{
+    background-color: black; /*fondo de sección iconos*/
+    padding: 60px 50px; /*relleno sexxión iconos*/
   }
   .card-body{
-    background-color: #01949c;
-  }
-  .container-iconos{
-    background-color: black;
-    padding: 60px 50px;
+    background-color: #01949c; /*se establece el color de fondo de las tarjetas*/
   }
   .card-text{
-    padding: 5px;
-    text-align: justify;
+    padding: 5px; /*relleno en el texto ede la tarjetas*/
+    text-align: justify; /*se justifica el texto de la tarjetas*/
   }
   .section-form {
     
-    border: 2px solid grey;
-    padding: 25px;
-    border-radius: 5px;
-    width: auto;
-    max-width: auto;
-    box-shadow: 0 4px 8px gainsboro;
+    border: 2px solid grey; /*se establece borde solido, su tamaño y color de la tarjetas*/
+    padding: 25px; /*se establece relleno de la sexxi+on formulario de contacto*/
+    border-radius: 5px; /*se establece borde redondeado*/
+    width: auto; /*se establece tamaño automatico*/
+    max-width: auto; /* se establece tamaño maximo automatico*/
+    box-shadow: 0 4px 8px gainsboro; /* se establece sombra de la caja*/
   }
   .section-group{
-    padding: 20px;
+    padding: 20px;/*se establece relleno de grupo*/
   }
   .pie {
-    background-color: #01949c;
-    margin: auto;
+    background-color: #01949c; /*se establece color de fondo del footer*/
+    margin: auto;/*se establece margen de footer*/
     
   }
   
-  
+  /*se establece responsividad de formulario de contacto*/
   @media (max-width: 767px) {
     .section-form {
         margin: 10px;
@@ -79,6 +79,6 @@
     }
   }
   .boton-final{
-    margin-top: 20px;
+    margin-top: 20px; /*se establece margen superior de boton de contacto*/
   }
   
