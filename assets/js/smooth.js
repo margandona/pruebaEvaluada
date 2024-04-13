@@ -1,3 +1,4 @@
+/*permite un scrol esoecial entre un evento y otro del nav*/
 $(document).ready(function(){
     $("a").on('click', function(event) {
     if (this.hash !== "") {
