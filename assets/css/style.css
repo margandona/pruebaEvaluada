@@ -20,6 +20,11 @@
   .titulo2{
     padding-bottom: 20px;
   }
+  .card-img-top-fixed {
+    width: 100%; /* Esto hace que la imagen siempre ocupe el 100% del ancho de la tarjeta */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Esto recortará la imagen para que se ajuste al contenedor sin distorsionarse */
+}
   .lobster-regular {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -33,6 +38,9 @@
   .card-color{
     background-color: black; 
     color: #fff;
+  }
+  .card-title{
+    
   }
   .card-body{
     background-color: #01949c;
