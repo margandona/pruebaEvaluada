@@ -1,9 +1,4 @@
-$(function () {
-    $("#enviar").on("click", function () {
-        var text = $(this).text();
-        alert("El correo fue enviado correctamente");
-    })
-})
+
 $("#chicago1, #chicago2").dblclick(function () {
     $(this).css(
         {
