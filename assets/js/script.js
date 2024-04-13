@@ -7,11 +7,11 @@ $("#chicago1, #chicago2").dblclick(function () {
     )
 })
 $("#recipe1, #recipe2, #recipe3, #recipe").on("click", function () {
-    if ($("#recipe1, #recipe2, #recipe3, #recipe").is(":visible")) {
-        $("#recipe1, #recipe2, #recipe3, #recipe").hide();
-        $("#recipe1, #recipe2, #recipe3, #recipe").text("mostrar");
+    if ($("#recipe1, #recipe2, #recipe3, #recipe, #recipe4").is(":visible")) {
+        $("#recipe1, #recipe2, #recipe3, #recipe, #recipe4").hide();
+        $("#recipe1, #recipe2, #recipe3, #recipe, #recipe4").text("mostrar");
     } else {
-        $("#recipe1, #recipe2, #recipe3, #recipe").show();
-        $("#recipe1, #recipe2, #recipe3, #recipe").text("ocultar");
+        $("#recipe1, #recipe2, #recipe3, #recipe, #recipe4").show();
+        $("#recipe1, #recipe2, #recipe3, #recipe, #recipe4").text("ocultar");
     }
 })

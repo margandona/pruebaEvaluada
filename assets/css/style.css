@@ -17,6 +17,9 @@
   .navbar-expand-md button {
     padding: 0 60px;
   }
+  .titulo2{
+    padding-bottom: 20px;
+  }
   .lobster-regular {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -31,9 +34,16 @@
     background-color: black; 
     color: #fff;
   }
+  .card-body{
+    background-color: #01949c;
+  }
   .container-iconos{
     background-color: black;
     padding: 60px 50px;
+  }
+  .card-text{
+    padding: 5px;
+    text-align: justify;
   }
   .section-form {
     
